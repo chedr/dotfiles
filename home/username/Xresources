@@ -1,0 +1,68 @@
+URxvt.scrollBar: false
+URxvt.perl-ext-common: default,matcher,clipboard
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.mather.button: 2
+URxvt.matcher.rend.0: Uline Bold fg5
+
+
+URxvt.font:     xft:dejavu sans mono:size=9:antialias=true,xft:unifont:size=9:antialias=true
+URxvt.boldFont: xft:dejavu sans mono:bold:size=9:antialias=true,xft:unifont:bold:size=9:antialias=true
+
+! --- special colors ---
+
+*background: #20252a
+*foreground: #f0f5fa
+
+! --- standard colors ---
+
+! black
+*color0: #20252a
+
+! bright_black
+*color8: #484d52
+
+! red
+*color1: #e42d39
+
+! bright_red
+*color9: #f3a5aa
+
+! green
+*color2: #39e42d
+
+! bright_green
+*color10: #aaf3a5
+
+! yellow
+*color3: #e4d82d
+
+! bright_yellow
+*color11: #f3eea5
+
+! blue
+*color4: #2d39e4
+
+! bright_blue
+*color12: #a5aaf3
+
+! magenta
+*color5: #d82de4
+
+! bright_magenta
+*color13: #eea5f3
+
+! cyan
+*color6: #2de4d8
+
+! bright_cyan
+*color14: #a5f3ee
+
+! white
+*color7: #ebf0f5
+
+! bright_white
+*color15: #f0f5fa
+
